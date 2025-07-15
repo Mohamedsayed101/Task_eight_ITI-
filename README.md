@@ -23,8 +23,9 @@ It contains multiple sections including a header, about section, product showcas
 
 - HTML5
 - CSS3
-- Font Awesome (CDN)
+- Font Awesome 
 - Google Fonts: Alegreya & Alegreya Sans
+- git & GitHub
 
 ---
 
@@ -161,7 +162,7 @@ Here are some images from the project:
 Faculty of Computers and Information, Fayoum University  
 Email: [ms3655@fayoum.edu.eg](mailto:ms3655@fayoum.edu.eg)  
 GitHub: [Mohamedsayed101](https://github.com/Mohamedsayed101)
-LinkedIn: [Mohamed Sayed ]([https://www.linkedin.com/in/mohamed-sayed-omar/](https://www.linkedin.com/in/mohamed-sayed-439a54347/))
+LinkedIn: [Mohamed Sayed ]([https://www.linkedin.com/in/mohamed-sayed-omar/](https://www.linkedin.com/in/mohamed-sayed-439a54347/)
 
 ---
 
