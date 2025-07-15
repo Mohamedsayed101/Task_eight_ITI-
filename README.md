@@ -138,19 +138,19 @@ Here are some images from the project:
 ![Header](./images/header.png)
 
 #### Why section image
-![Why](./images/whoWe.jpg)
+![Why](./images/whoWe.png)
 
 #### location section image
-![location](./images/loc.jpg)
+![location](./images/loc.png)
 
 #### products section image
-![products](./images/Pros.jpg)
+![products](./images/Pros.png)
 
 #### map section image
-![map Section](./images/map.jpg)
+![map Section](./images/map.png)
 
 #### footer section image
-![footer Section](./images/footer.jpg)
+![footer Section](./images/footer.png)
 
 
 ---
