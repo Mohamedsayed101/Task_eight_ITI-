@@ -130,6 +130,28 @@ Bakery-Website/
   - Social media icons in rounded containers.
 
 ---
+## Preview Images
+
+Here are some images from the project:
+
+#### Header section image
+![Header](./images/header.png)
+
+#### Why section image
+![Why](./images/whoWe.jpg)
+
+#### location section image
+![location](./images/loc.jpg)
+
+#### products section image
+![products](./images/Pros.jpg)
+
+#### map section image
+![map Section](./images/map.jpg)
+
+#### footer section image
+![footer Section](./images/footer.jpg)
+
 
 ---
 
