@@ -1,0 +1,375 @@
+/* ========== Start Global Variables ========== */
+:root {
+  /* Colors */
+  --main-color: #8e7754;
+  --secondary-color: #969696;
+  --light-color: #ffffff;
+  --dark-color: #303030;
+  --text-color: #686868;
+  --btn-hover-bg: #ffffff;
+  --btn-hover-color: #000;
+
+  /* Ui Elements */
+  --border-radius: 4px;
+  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  /* Fonts */
+  --font-small: 14px;
+  --font-base: 16px;
+  --font-lg: 24px;
+  --font-xl: 36px;
+}
+/* ========== End Global Variables ========== */
+
+/* ========== Start Reset for elements  ========== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ========== End Reset for elements  ========== */
+
+/* ========== Start common elements and classes ========== */
+
+body {
+    scroll-behavior: smooth;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--light-color);
+}
+
+li {
+    list-style: none;
+}
+
+.active {
+    border-bottom: 2px solid var(--main-color);
+}
+
+.Box {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image {
+    width: 45%;
+}
+.image img {
+    width: 100%;
+}
+
+.continar-color {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+
+/* ========== End common elements and classes ========== */
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: "Alegreya";
+  color: var(--dark-color);
+  line-height: 1.38em;
+  font-weight: 400;
+}
+
+h4 {
+  color: var(--light-color);
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-family: "Alegreya";
+}
+
+p {
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+/* ========== End common ele and classes ========== */
+
+/* ========== Start Header Section ========== */
+.container .header {
+    position: relative;
+    height: 100vh;
+    padding-top: 50px;
+    background-image: url("../images/drew-coffman-1872.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-color);
+    z-index: 1;
+}
+
+.container .header::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+
+.container .header .header-section {
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+.container .header .header-content {
+  text-align: center;
+  line-height: 1.2;
+}
+
+.container .header .header-content h1 {
+  font-family: "Alegreya", serif;
+  margin: 18px 0;
+  font-size: 76px !important;
+  font-weight: 100;
+}
+
+.container .header .header-content .f-para-Header {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 22px;
+  margin: 10px 0;
+  color: var(--light-color);
+}
+
+.container .header .header-content .s-para-Header {
+  color: var(--light-color);
+  font-family: "Alegreya Sans", sans-serif;
+  margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 1.86em;
+}
+
+.container .header .header-content .btn-header {
+  margin: 0 auto;
+  width: 41%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .header .header-content .btn-header .btn {
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 28px;
+  background-color: transparent;
+  border: 1px solid var(--light-color);
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease;
+  color: var(--light-color);
+}
+
+.container .header .header-content .btn-header .btn:first-child {
+  background-color: var(--main-color);
+  border: none;
+}
+
+.container .header .header-content .btn-header .btn:hover {
+  background-color: var(--btn-hover-bg);
+  color: var(--btn-hover-color);
+}
+
+/* Header Scroll Icon */
+.container .header-icon {
+  display: block;
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  border: 1px solid var(--light-color);
+  border-radius: 90px;
+  cursor: pointer;
+}
+
+.header-icon::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--light-color);
+  position: absolute;
+  left: 30%;
+  top: 3px;
+}
+
+/* ========== Navbar ========== */
+.nav-bar {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50%;
+}
+
+.nav-links {
+  width: 40%;
+}
+
+.nav-links ul {
+  font-family: "Alegreya";
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ========== About Us Section ========== */
+.about-us-section {
+  padding: 20px 0;
+}
+
+.about-us-section .about-us-content {
+  width: 50%;
+  padding: 10px;
+}
+
+.about-us-content .content-box h2 {
+  font-size: 32px;
+}
+
+.about-us-content .content-box p {
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+.about-us-section .icon-box {
+  padding: 10px;
+}
+
+.about-us-section .icon-box i {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #b4b0a7;
+  color: var(--main-color);
+  border-radius: 50%;
+}
+
+/* ========== Products Section ========== */
+.products-section {
+  text-align: center;
+}
+
+.products-section .section-header {
+  margin-bottom: 60px;
+}
+
+.products-section .cards-section .card {
+  width: 40%;
+}
+
+.products-section .cards-section .card img {
+  width: 90%;
+}
+
+.products-section .cards-section .card h3 {
+  padding: 20px 0;
+  color: var(--btn-hover-color);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* ========== Map Section ========== */
+.map-container .map-section .map-icons p {
+  margin-bottom: 20px;
+}
+
+.map-container .map-section .map-icons ul li {
+  margin-top: 20px;
+}
+
+.map-container .map-section .map-icons ul li i {
+  background-color: var(--main-color);
+  color: var(--light-color);
+  padding: 10px;
+  font-size: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.map-container .map-section .map-content {
+  margin-bottom: 20px;
+}
+
+/* ========== Footer Section ========== */
+.footer-section {
+  padding: 60px 0 0;
+  background-color: #403d38;
+}
+
+.footer-section p,
+.footer-section li,
+.footer-section a {
+  color: var(--secondary-color);
+}
+
+.nav-footer li {
+  margin-bottom: 10px;
+  padding-bottom: 19px;
+  font-size: 16px;
+  font-family: "Alegreya Sans";
+  border-bottom: 1px solid var(--dark-color);
+  transition: all 0.5s ease;
+}
+
+.nav-footer li i {
+  margin-right: 10px;
+}
+
+.nav-footer li a:hover {
+  color: var(--light-color);
+}
+
+.second-footer {
+  background-color: #353330;
+  padding: 70px 0 30px;
+  text-align: center;
+}
+
+.second-footer .nav-links {
+  margin: 40px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.second-footer p {
+  margin-top: 30px;
+}
+
+.second-footer .nav-links i {
+  background-color: #4e4941;
+  padding: 15px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
