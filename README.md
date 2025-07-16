@@ -23,8 +23,9 @@ It contains multiple sections including a header, about section, product showcas
 
 - HTML5
 - CSS3
-- Font Awesome (CDN)
+- Font Awesome 
 - Google Fonts: Alegreya & Alegreya Sans
+- git & GitHub
 
 ---
 
@@ -130,6 +131,28 @@ Bakery-Website/
   - Social media icons in rounded containers.
 
 ---
+## Preview Images
+
+Here are some images from the project:
+
+#### Header section image
+![Header](./images/header.png)
+
+#### Why section image
+![Why](./images/whoWe.png)
+
+#### location section image
+![location](./images/loc.png)
+
+#### products section image
+![products](./images/Pros.png)
+
+#### map section image
+![map Section](./images/map.png)
+
+#### footer section image
+![footer Section](./images/footer.png)
+
 
 ---
 
@@ -139,7 +162,7 @@ Bakery-Website/
 Faculty of Computers and Information, Fayoum University  
 Email: [ms3655@fayoum.edu.eg](mailto:ms3655@fayoum.edu.eg)  
 GitHub: [Mohamedsayed101](https://github.com/Mohamedsayed101)
-LinkedIn: [Mohamed Sayed ]([https://www.linkedin.com/in/mohamed-sayed-omar/](https://www.linkedin.com/in/mohamed-sayed-439a54347/))
+LinkedIn: [Mohamed Sayed ]([https://www.linkedin.com/in/mohamed-sayed-omar/](https://www.linkedin.com/in/mohamed-sayed-439a54347/)
 
 ---
 
